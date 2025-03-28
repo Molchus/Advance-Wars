@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 public class levelSelector : MonoBehaviour
 {
-    public KeyCode reloadKey = KeyCode.H;
+    //public KeyCode reloadKey = KeyCode.H;
 
     public void Levlel1()
     {
@@ -17,6 +17,10 @@ public class levelSelector : MonoBehaviour
     public void Level2()
     {
         SceneManager.LoadScene("2.Level2");
+    }
+    public void Level3()
+    {
+        SceneManager.LoadScene("3.Level3");
     }
 
     public void ExitGame()
@@ -32,7 +36,7 @@ public class levelSelector : MonoBehaviour
     private void Update()
     {
         
-        if (Input.GetKeyDown(reloadKey))
+        //if (Input.GetKeyDown(reloadKey))
         {
             SceneManager.LoadScene("0.Menu");
         }
