@@ -178,6 +178,8 @@ public class tileMapScript : MonoBehaviour
                 tiles[x, y] = 0;
             }
         }
+
+        //"mountain"
         tiles[2, 7] = 2;
         tiles[3, 7] = 2;
        
@@ -190,6 +192,7 @@ public class tileMapScript : MonoBehaviour
         tiles[6, 2] = 2;
         tiles[7, 2] = 2;
 
+        //graß
         tiles[0, 3] = 3;
         tiles[1, 3] = 3;
         tiles[0, 2] = 3;
@@ -202,18 +205,6 @@ public class tileMapScript : MonoBehaviour
         tiles[1, 7] = 3;
 
         tiles[2, 3] = 3;
-        tiles[0, 4] = 1;
-        tiles[0, 5] = 1;
-        tiles[1, 4] = 1;
-        tiles[1, 5] = 1;
-        tiles[2, 4] = 3;
-        tiles[2, 5] = 3;
-
-        tiles[4, 4] = 1;
-        tiles[5, 4] = 1;
-        tiles[4, 5] = 1;
-        tiles[5, 5] = 1;
-
         tiles[7, 3] = 3;
         tiles[8, 3] = 3;
         tiles[9, 3] = 3;
@@ -226,6 +217,22 @@ public class tileMapScript : MonoBehaviour
         tiles[9, 6] = 3;
         tiles[8, 7] = 3;
         tiles[9, 7] = 3;
+        tiles[2, 4] = 3;
+        tiles[2, 5] = 3;
+
+        //forest
+        tiles[0, 4] = 1;
+        tiles[0, 5] = 1;
+        tiles[1, 4] = 1;
+        tiles[1, 5] = 1;
+        tiles[12, 4] = 1;
+
+        tiles[4, 4] = 1;
+        tiles[5, 4] = 1;
+        tiles[4, 5] = 1;
+        tiles[5, 5] = 1;
+
+        
         tiles[8, 4] = 1;
         tiles[8, 5] = 1;
         tiles[9, 4] = 1;
